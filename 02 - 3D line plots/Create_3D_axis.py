@@ -23,10 +23,10 @@ def set_white_background():
 
 def create_axis(axis, colour, thickness, set_grid):
     bpy.ops.mesh.primitive_cylinder_add(radius=1, depth=2)
-    bpy.ops.transform.rotate(value=math.radians(90), orient_axis=axis)
     bpy.ops.transform.resize(value=(thickness, thickness, thickness))
 
     if (axis == 'X'):
+        bpy.ops.transform.rotate(value=math.radians(90), orient_axis='Y')
         bpy.ops.transform.resize(value=(1/thickness, 1, 1))
         bpy.ops.transform.translate(value=(1, 0, 0))
         # Set the X-axis to red
@@ -64,7 +64,8 @@ def create_axis(axis, colour, thickness, set_grid):
             plane = bpy.context.active_object
             create_diffuse_material(plane, (0.973, 0.973, 0.973, 1), "plane_material")
                             
-    elif (axis == 'Y'):    
+    elif (axis == 'Y'):  
+        bpy.ops.transform.rotate(value=math.radians(90), orient_axis='X')
         bpy.ops.transform.resize(value=(1, 1/thickness, 1))
         bpy.ops.transform.translate(value=(0, 1, 0))
         # Set the X-axis to red
@@ -103,6 +104,7 @@ def create_axis(axis, colour, thickness, set_grid):
             create_diffuse_material(plane, (0.961, 0.961, 0.961, 1), "plane_material")   
                  
     elif (axis == 'Z'):    
+        bpy.ops.transform.rotate(value=math.radians(90), orient_axis='Z')
         bpy.ops.transform.resize(value=(1, 1, 1/thickness))
         bpy.ops.transform.translate(value=(0, 0, 1))
         # Set the X-axis to red
