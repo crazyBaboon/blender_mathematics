@@ -6,4 +6,4 @@ This is the official supporting repo for youtube series on blender mathematics: 
 #
 Each folder is an independent unit, and their scripts are self-sufficient.
 #
-License - All scripts are open source: MIT
+License - All scripts are **open source**: MIT
