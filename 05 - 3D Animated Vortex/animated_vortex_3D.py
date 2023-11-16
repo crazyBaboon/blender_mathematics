@@ -502,13 +502,13 @@ for N in range(len(t) - 1):
     points_diff[N] = [dx, dy, dz]
  
 
-max_step = 150
+max_animation_step = 2
 
 length = 0.2
 thickness = 0.01
 colour = (0.1, 0.2, 1, 1)
 
-for step in range(1, max_step):
+for step in range(1, max_animation_step):
        
     for N in range(160):
         # the 25*N represents a 25 unit spacing between vectors
