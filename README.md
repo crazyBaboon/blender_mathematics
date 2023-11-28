@@ -2,6 +2,8 @@
 
 short python scripts to aid math visualization:
 
+![Screenshot](https://imgur.com/2gR5YKR.png)
+
 ![Screenshot](https://imgur.com/yeQlF7k.png)
 
 
