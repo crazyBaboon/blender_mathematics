@@ -2,10 +2,11 @@
 
 short python scripts to aid math visualization:
 
+![Alt Text]([https://media.giphy.com/media/](https://imgur.com/G6NjNOC.gif)
+
 ![Screenshot](https://imgur.com/2gR5YKR.png)
 
 ![Screenshot](https://imgur.com/yeQlF7k.png)
-
 
 ![Screenshot](https://imgur.com/a5Ark7J.png)
 
