@@ -2,7 +2,7 @@
 
 short python scripts to aid math visualization:
 
-![Alt Text](https://imgur.com/mB3eEVY.gif)
+![Alt Text](https://imgur.com/La1zCBY.gif)
 
 ![Screenshot](https://imgur.com/yeQlF7k.png)
 
