@@ -1,6 +1,8 @@
 # blender mathematics
+short python scripts to aid math visualization.
 
-short python scripts to aid math visualization:
+#
+Example screenshots:
 
 ![Alt Text](https://imgur.com/La1zCBY.gif)
 
